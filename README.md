@@ -43,4 +43,4 @@
 
 
 # Ejercicio 1.10.4 Data Explorer. 
-#En este ejercicio se debe hacer 
+#En este ejercicio se debe manejar datos sobre el crecimiento del bosque en Costa Rica 
