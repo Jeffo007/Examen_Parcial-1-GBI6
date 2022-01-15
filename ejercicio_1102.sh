@@ -44,42 +44,4 @@ done
 
 
 
-###################################################
-# 3) Write a script that returns the number of
-# times each individual was sampled.
-
-# This requires a) extracting all IDs and b) calling
-# the script above for each ID
-
-# To get all unique IDs, we need to tail -n +2 the
-# file to remove the header, cut -f 1 to extract
-# the IDs, and then run through sort | uniq to
-# remove the duplicates:
-
-#tail -n +2 ../data/Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq
-
-# 1
-# 2
-# 3
-# 4
-# ...
-
-# To store this list in a script, you can use
-
-#myIDS=`tail -n +2 ../data/Gesquiere2011_data.csv | cut -f 1 | sort -n | uniq`
-
-# And now use a "loop" to cycle through all
-# IDs:
-
-#for id in $myIDS
-#do
- #   mycounts=`cut -f 1 $1 | grep -c -w $2  ../data/Gesquiere2011_data.csv $id`
-  #  echo "ID:" $id "counts:" $mycounts
-
-#done 
-
-# The file count_all_baboons.sh shows the complete
-# script:
-
-#cut -f 1 $1 | grep -c -w $2
 
