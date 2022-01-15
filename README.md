@@ -29,9 +29,17 @@
 # **Explicacion de la Data** 
 
 # Ejercicio 1.10.2 Hormone Levels in Baboons. 
+#Gesquiere et al. (2011) estudiaron los niveles hormonales en la sangre de los babuinos. 
+#Se tomaron muestras de cada individuo varias veces.
 
-#En este ejercicio en la fila derecha se encuentra el numero del individuo 
-#y en la otra columna el niver de horma con el que se va a trabajar. 
+#En este ejercicio en la columna derecha se encuentra el numero del individuo  
+#En la columna intermedia el niver de Glucocorticoide de la muestra.
+#En la columna de la izquierda se encuentra el nivel de testosterona del individuo
+
+#1. Cuántas veces se registraron los niveles de los individuos 3 y 27?
+#2. Escribe un script tomando como entrada el nombre del archivo y el ID del individuo
+#y devolviendo el número de registros para ese ID.
+#3. Escriba un script que devuelva el número de veces que cada individuo fue muestreado.
 
 
 # Ejercicio 1.10.4 Data Explorer. 
